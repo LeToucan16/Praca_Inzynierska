@@ -1,0 +1,69 @@
+.nutrients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 3px black;
+    border-bottom: solid 3px black;
+    padding:  2rem 6rem;
+}
+
+.nutrients-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nutrients-containers p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+
+    margin: 0 1rem;
+}
+.kcal{
+    margin-right: 5rem;
+}
+.protein{
+    margin-right: 5rem;
+}
+.fat{
+    margin-right: 5rem;
+}
+.carbs{
+    margin-right: 5rem;
+}
+
+.kcal-level{
+    width: 200px;
+    height: 15px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, red 66%, transparent 34%);
+}
+.protein-level{
+    width: 200px;
+    height: 15px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, green 100%, transparent 34%);
+}
+.carbs-level{
+    width: 200px;
+    height: 15px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, red 60%, transparent 40%);
+}
+.fat-level{
+    width: 200px;
+    height: 15px;
+    border: solid 2px #fff;
+    border-radius: 10px;
+    background: linear-gradient(to right, red 60%, transparent 40%);
+}
+
+.aim{
+    color: gray;
+}

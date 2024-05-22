@@ -1,6 +1,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import React, { useEffect, useState } from "react";
 import { auth } from "../../firebase";
+import './signin.css';
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -21,7 +22,7 @@ const SignIn = () => {
   return (
     <div className="sign-in-container">
       <form onSubmit={signIn}>
-        <h1>Log In to your Account</h1>
+        <h1>Log in to your Account</h1>
         <input
           type="email"
           placeholder="Enter your email"

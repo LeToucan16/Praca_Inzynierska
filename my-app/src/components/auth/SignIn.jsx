@@ -14,7 +14,7 @@ const SignIn = () => {
       })
       .catch((error) => {
         console.log(error);
-        alert('ivalid login data');
+        alert('invalid login data');
       });
   };
 

@@ -1,0 +1,65 @@
+.container{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.container h1{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.product{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin: 0 2rem 2rem 2rem;;
+    padding:  1rem 4rem;
+    border: solid 1px black;
+    border-radius: 2rem;
+    background: orange;
+}
+
+.addProduct{
+    margin: 0;
+}
+
+.product h2, p{
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border: solid 3px black;
+    border-radius: 3rem;
+    margin: 0 2rem 2rem 2rem;
+    background: green;
+}
+
+
+.values{
+    justify-content: center;
+}
+
+.button{
+    padding:  0.5rem 1rem;
+    color: #fff;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}

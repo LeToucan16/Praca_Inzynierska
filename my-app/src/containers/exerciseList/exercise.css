@@ -1,0 +1,19 @@
+.exercise_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exercise_inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    padding: 2rem;
+    border: solid 3px black;
+    border-radius: 3rem;
+    margin: 0 2rem 2rem 2rem;
+    background: green;
+}

@@ -1,15 +1,15 @@
 import React from "react";
 import './navbar.css';
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
     const Menu = () => (
         <>
-        <p><a href="#main">Strona Główna</a></p>
-        <p><a href="#products">Produkty</a></p>
-        <p><a href="#workouts">Treningi</a></p>
-        <p><a href="#statistics">Statystyki</a></p>
-        <p><a href="#calendar">Kalendarz</a></p>
+        <p><Link to='/'>Main Page</Link></p>
+        <p><Link to='/Products'>Products</Link></p>
+        <p><Link to='/Workouts'>Workouts</Link></p>
+        <p><Link to='/Statistics'>Statistics</Link></p>
         </>
     )
     return (
@@ -23,8 +23,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className="navbar-sign">
-                <p>Sign in</p>
-                <button type="button">Sign up</button>
+                <Link to='/Sign'><button type="button">Sign in/Sign up</button></Link>
             </div>
 
         </div>

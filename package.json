@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/x-date-pickers": "^7.4.0",
+    "firebase": "^9.23.0",
+    "react-datepicker": "^6.9.0",
+    "react-router-dom": "^6.23.1",
+    "react-select-datepicker": "^2.1.2",
     "typescript": "^5.2.2"
   }
 }

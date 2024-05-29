@@ -1,0 +1,16 @@
+.workouts_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.workouts_container-added{
+    width: 50%;
+    color: white;
+    align-self:baseline;
+}
+
+.workouts_container-addNew{
+    width: 50%;
+}

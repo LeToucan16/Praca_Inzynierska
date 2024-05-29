@@ -10,12 +10,11 @@
     transform: translate(-50%);
     overflow-y: auto;
     overflow-x: hidden;
-    height:360px;
+    max-height: 50vh;
     border: solid 3px #ff4820;;
     box-shadow: 0 0 5 rgba(0,0,0,0.2);
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    top: 320px;
 }
 
 .productList-list_container h1{

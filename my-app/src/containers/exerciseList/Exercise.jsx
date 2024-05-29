@@ -5,8 +5,7 @@ import { collection, doc, onSnapshot, query , addDoc, deleteDoc} from 'firebase/
 import { db } from '../../firebase';
 
 const Exercise = () => {
-
-    const [exercises, setExercises] = useState('');
+    const [exercises, setExercises] = useState([]);
     const [list, setList] = useState(false);
     const [loading, setLoading] = useState(false);
     const [name, setName] = useState('');
@@ -92,6 +91,16 @@ const Exercise = () => {
         <button className='button' type='submit'>Submit</button>
       </div>
       </form>
+      {exercises.map((exercise) => (
+        <div className="exercise_item" key={exercise.id}>
+          <div className='values'>
+          <h2>{exercise.name}</h2>
+          </div>
+          <div>
+            <button className='button' onClick={() => deleteExercise(exercise.id)}>X</button>
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
